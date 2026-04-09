@@ -2,6 +2,8 @@
 
 Repository containing the code of the paper entitled “A state reduction approach for learning-based model predictive control for train rescheduling” published in IFAC-PapersOnLine, available [here](https://www.sciencedirect.com/science/article/pii/S2405896325027417).
 
+Acknowledgement: This research has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (Grant agreement No. 101018826 - CLariNet).
+
 # Files
 
 analysis_test_single.ipynb: analyses the results obtained from "tests_learning_cl_single.py".
