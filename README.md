@@ -14,8 +14,6 @@ analysis_test_single.ipynb: analyses the results obtained from "tests_learning_c
 
 analysis_tests_learning_all.ipynb: analyses the results obtained from "tests_learning_cl_ensemble_all.py". The results from the paper's table come from here.
 
-gurobi.lic: GUROBI solver license file.
-
 rail_data_preprocess_reduced.py: defines functions for data pre-processing.
 
 rail_fun.py: creates auxiliary functions for data pre-processing, computing the step cost, and retrieving information from the system.
