@@ -24,6 +24,8 @@ rail_gen_optimal_data_reduced.py: generates the data used for the training of th
 
 rail_learning_cluster_reduced.py: trains the neural networks and saves the resulting weights and hyperparameters. The flag "testing=False" sets the script to be run in a computing cluster. Alternatively, "testing=True" is used for local small tests.
 
+rail_rl_env.py: defines the railway network system (dynamics, parameters, etc...). It has a very similar architecture to environments in the library Gymnasium.
+
 rail_training_reduced.py: creates classes which represent several neural network architectures, creates a function which updates the neural network weights by backpropagation, and defines auxiliary functions for data pre-processing and testing.
 
 tests_learning_cl_ensemble.py: tests the closed-loop performance of the ensemble of the selected neural networks. This script only tests the MILP and Learning+LP methods.
